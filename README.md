@@ -7,9 +7,6 @@ Due to licensing restrictions, raw data is not included in this repository.
 You can download the data from:
 - https://www.kaggle.com/datasets/srikaranelakurthy/online-news-popularity
 
-📄 **Open HTML report:**  
-[linear-vs-tree-models-news-popularity.html](linear-vs-tree-models-news-popularity.html)
-
 Comparing linear and non-linear models for predicting online news popularity.
 
 This project explores the predictive performance of linear and non-linear models on the Online News Popularity dataset. Due to the heavy-tailed and
