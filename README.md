@@ -1,5 +1,12 @@
 # linear-vs-tree-models-news-popularity
 
+## Data
+The dataset is from the UCI Machine Learning Repository / Kaggle.
+Due to licensing restrictions, raw data is not included in this repository.
+
+You can download the data from:
+- https://www.kaggle.com/datasets/srikaranelakurthy/online-news-popularity
+
 📄 **Open HTML report:**  
 [linear-vs-tree-models-news-popularity.html](linear-vs-tree-models-news-popularity.html)
 
