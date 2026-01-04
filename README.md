@@ -3,7 +3,8 @@
 ## Data
 The dataset is from Kaggle.
 Due to licensing restrictions, raw data is not included in this repository.
-You can download the data from: https://www.kaggle.com/datasets/srikaranelakurthy/online-news-popularity
+You can download the data from: 
+https://www.kaggle.com/datasets/srikaranelakurthy/online-news-popularity
 
 Comparing linear and non-linear models for predicting online news popularity.
 
