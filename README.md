@@ -1,19 +1,25 @@
-# linear-vs-tree-models-news-popularity
+# Linear vs. Tree-Based Models for Online News Popularity
+
+## Overview
+This project compares linear and non-linear models for predicting online news popularity using the *Online News Popularity* dataset.
+
+Due to the heavy-tailed and noisy nature of the target variable, **Mean Absolute Error (MAE)** is used as the primary evaluation metric.
+
+## Methods
+- Exploratory Data Analysis (EDA)
+- Ordinary Least Squares (OLS) regression with diagnostic analysis
+- Random Forest regression as a non-linear alternative
+
+Model diagnostics reveal substantial violations of linear model assumptions.  
+A Random Forest model achieves improved explanatory power (**R² = 0.29**) with modest improvements in MAE.
 
 ## Data
-The dataset is from Kaggle.
-Due to licensing restrictions, raw data is not included in this repository.
-You can download the data from: 
+The dataset is provided by Kaggle.  
+Due to licensing restrictions, raw data is **not included** in this repository.
+
+You can download the dataset from:  
 https://www.kaggle.com/datasets/srikaranelakurthy/online-news-popularity
 
-Comparing linear and non-linear models for predicting online news popularity.
-
-This project explores the predictive performance of linear and non-linear models on the Online News Popularity dataset. Due to the heavy-tailed and
-noisy nature of the target variable, Mean Absolute Error (MAE) is used as the primary evaluation metric.
-
-Linear models such as Ordinary Least Squares (OLS) are first examined, followed by diagnostic analyses highlighting violations of model
-assumptions. A Random Forest model is then applied as a non-linear alternative, achieving improved explanatory power (R² = 0.29) despite
-modest gains in MAE.
-
-**Techniques:** EDA, OLS, Random Forest, residual diagnostics  
-**Language:** Python (pandas, scikit-learn, matplotlib)
+## Tech Stack
+- **Language:** Python  
+- **Libraries:** pandas, scikit-learn, matplotlib
