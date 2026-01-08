@@ -5,6 +5,12 @@ This project compares linear and non-linear models for predicting online news po
 
 Due to the heavy-tailed and noisy nature of the target variable, **Mean Absolute Error (MAE)** is used as the primary evaluation metric.
 
+**Note**
+
+This project serves as an exploratory study comparing linear and tree-based models.  
+Further investigation revealed that self-reference share statistics introduce target leakage, which can inflate model performance.  
+This insight motivated a revised evaluation strategy in subsequent work, focusing on leakage-free features and robust validation.
+
 ## Methods
 - Exploratory Data Analysis (EDA)
 - Ordinary Least Squares (OLS) regression with diagnostic analysis
